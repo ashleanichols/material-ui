@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 ashleanichols/material-ui is built on the following main stack:
+
 - [CircleCI](https://circleci.com/) – Continuous Integration
 - [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -44,11 +45,13 @@ ashleanichols/material-ui is built on the following main stack:
 - [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 ashleanichols/material-ui is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg' alt='CircleCI'/> [CircleCI](https://circleci.com/) – Continuous Integration
 - <img width='25' height='25' src='https://img.stackshare.io/service/832/mocha.png' alt='Mocha'/> [Mocha](http://mochajs.org/) – Javascript Testing Framework
 - <img width='25' height='25' src='https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png' alt='Node.js'/> [Node.js](http://nodejs.org/) – Frameworks (Full Stack)
@@ -91,14 +94,15 @@ ashleanichols/material-ui is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ashleanichols/material-ui](https://github.com/ashleanichols/material-ui)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|192<br/>Tools used|11/09/23 <br/>Report generated|
+|193<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -478,9 +482,9 @@ Full tech stack [here](/techstack.md)
 </table>
 
 
-## <img src='https://img.stackshare.io/group.svg' /> Open source packages (149)</h2>
+## <img src='https://img.stackshare.io/group.svg' /> Open source packages (150)</h2>
 
-## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (149)
+## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (150)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
@@ -545,6 +549,7 @@ Full tech stack [here](/techstack.md)
 |[babel-plugin-tester](https://www.npmjs.com/babel-plugin-tester)|v10.1.0|07/18/21|renovate[bot] |MIT|N/A|
 |[babel-plugin-transform-react-remove-prop-types](https://www.npmjs.com/babel-plugin-transform-react-remove-prop-types)|v0.4.24|07/09/21|Michał Perłakowski |MIT|N/A|
 |[benchmark](https://www.npmjs.com/benchmark)|v2.1.4|12/13/20|Olivier Tassinari |MIT|N/A|
+|[chalk](https://www.npmjs.com/chalk)|v2.4.1|04/05/20|dependabot-preview[bot] |MIT|N/A|
 |[clean-css](https://www.npmjs.com/clean-css)|v4.2.3|02/01/21|dependabot-preview[bot] |MIT|N/A|
 |[compression-webpack-plugin](https://www.npmjs.com/compression-webpack-plugin)|v6.1.1|07/18/21|renovate[bot] |MIT|N/A|
 |[concurrently](https://www.npmjs.com/concurrently)|v6.2.0|03/22/21|Sebastian Silbermann |MIT|N/A|
@@ -584,7 +589,7 @@ Full tech stack [here](/techstack.md)
 |[karma-webpack](https://www.npmjs.com/karma-webpack)|v4.0.2|03/22/21|Sebastian Silbermann |MIT|N/A|
 |[luxon](https://www.npmjs.com/luxon)|v1.27.0|11/29/20|dependabot-preview[bot] |MIT|[CVE-2023-22467](https://github.com/advisories/GHSA-3xq5-wjfh-ppjc) (High)|
 |[lz-string](https://www.npmjs.com/lz-string)|v1.4.4|08/02/19|Olivier Tassinari |MIT|N/A|
-|[marked](https://www.npmjs.com/marked)|v2.1.3|06/25/21|Sebastian Silbermann |MIT|[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)<br/>[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)|
+|[marked](https://www.npmjs.com/marked)|v2.1.3|06/25/21|Sebastian Silbermann |MIT|[CVE-2022-21681](https://github.com/advisories/GHSA-5v2h-r2cx-5xgj) (High)<br/>[CVE-2022-21680](https://github.com/advisories/GHSA-rrrm-qjm4-v8hf) (High)|
 |[moment](https://www.npmjs.com/moment)|v2.29.1|11/16/20|Sebastian Silbermann |MIT|[CVE-2022-24785](https://github.com/advisories/GHSA-8hfj-j24r-96c4) (High)<br/>[CVE-2022-31129](https://github.com/advisories/GHSA-wc69-rhjr-hc9g) (High)|
 |[node-fetch](https://www.npmjs.com/node-fetch)|v2.6.1|03/01/21|Sebastian Silbermann |MIT|[CVE-2022-0235](https://github.com/advisories/GHSA-r683-j2x4-v87g) (High)|
 |[npm-run-all](https://www.npmjs.com/npm-run-all)|N/A|06/01/19|Peter Henson Valdes II |MIT|N/A|
@@ -637,4 +642,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
