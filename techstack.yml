@@ -1,11 +1,12 @@
 repo_name: ashleanichols/material-ui
 report_id: b2705ac4a5fbe9011077365e43a4cfad
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T17:00:37+00:00'
+timestamp: '2024-01-04T15:08:37+00:00'
 requested_by: eps1lon
 provider: github
 branch: next
-detected_tools_count: 192
+detected_tools_count: 193
 tools:
 - name: JavaScript
   description: Lightweight, interpreted, object-oriented language with first-class
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ashleanichols/material-ui
   detection_source: Repo Metadata
 - name: Mustache
   description: Logic-less templates
@@ -26,8 +28,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Templating Languages & Extensions
   image_url: https://img.stackshare.io/service/1142/197655.png
-  detection_source_url: yarn.lock
-  detection_source: packages/material-ui-icons/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: framer/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-01-19 08:14:37.000000000 Z
 - name: TypeScript
@@ -39,6 +41,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/ashleanichols/material-ui
   detection_source: Repo Metadata
 - name: Autoprefixer
   description: PostCSS plugin to parse CSS and add vendor prefixes to CSS rules
@@ -48,6 +51,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/docs/package.json
   detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-10-12 13:18:40.000000000 Z
@@ -62,8 +66,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Microframeworks (Backend)
   image_url: https://img.stackshare.io/service/1163/hashtag.png
-  detection_source_url: yarn.lock
-  detection_source: examples/ssr/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2019-11-25 11:23:57.000000000 Z
 - name: Material-UI
@@ -76,7 +80,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Front-End Frameworks
   image_url: https://img.stackshare.io/service/1904/default_44d81cb9fadbc3688b7e91a6d5217d0ea5358b57.png
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/benchmark/package.json
+  detection_source: benchmark/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: Next.js
@@ -88,8 +93,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/5936/nextjs.png
-  detection_source_url: yarn.lock
-  detection_source: test/bundling/fixtures/next-webpack5/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2019-06-29 11:25:59.000000000 Z
 - name: Node.js
@@ -101,7 +106,8 @@ tools:
   category: Languages & Frameworks
   sub_category: Frameworks (Full Stack)
   image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/create-react-app-with-styled-components-typescript/package.json
+  detection_source: examples/create-react-app-with-styled-components-typescript/package.json
   last_updated_by: Jesse Qin
   last_updated_on: 2021-04-15 12:53:15.000000000 Z
 - name: Preact
@@ -113,6 +119,7 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/4388/preact.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/preact/package.json
   detection_source: examples/preact/package.json
   last_updated_by: ewldev
   last_updated_on: 2021-01-26 11:49:10.000000000 Z
@@ -126,8 +133,8 @@ tools:
   category: Libraries
   sub_category: Javascript UI Libraries
   image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
-  detection_source_url: yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: benchmark/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-22 09:34:19.000000000 Z
 - name: React Router
@@ -140,8 +147,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/3350/8261421.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
 - name: Redux
@@ -153,7 +160,7 @@ tools:
   category: Libraries
   sub_category: State Management Library
   image_url: https://img.stackshare.io/service/4074/13142323.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 10:00:09.000000000 Z
@@ -168,8 +175,8 @@ tools:
   category: Libraries
   sub_category: JavaScript Framework Components
   image_url: https://img.stackshare.io/service/6749/styled-components.png
-  detection_source_url: yarn.lock
-  detection_source: examples/create-react-app-with-styled-components/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: benchmark/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: Azure Pipelines
@@ -180,6 +187,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/10164/528389819366_e7a0672f0480b3e98d21_512.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/azure-pipelines.yml
   detection_source: azure-pipelines.yml
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-12-09 10:41:36.000000000 Z
@@ -193,8 +201,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JavaScript Compilers
   image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: babel.config.js
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-06-13 09:19:41.000000000 Z
 - name: Chai
@@ -207,7 +215,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/1725/chai.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Hai Nguyen
   last_updated_on: 2014-08-18 20:27:12.000000000 Z
@@ -219,6 +227,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/.circleci/config.yml
   detection_source: ".circleci/config.yml"
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-12 08:43:20.000000000 Z
@@ -230,6 +239,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Coverage
   image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/.codecov.yml
   detection_source: ".codecov.yml"
   last_updated_by: Olivier Tassinari
   last_updated_on: 2017-06-18 20:11:00.000000000 Z
@@ -242,7 +252,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/ssr/package.json
+  detection_source: examples/ssr/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2018-06-16 19:59:54.000000000 Z
 - name: Enzyme
@@ -255,7 +266,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/4488/default_87e6ca3fa146a959af95ccf3df1ec550eb434129.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-22 09:34:19.000000000 Z
@@ -267,6 +278,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ashleanichols/material-ui
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -276,7 +288,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/scripts.yml"
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/.github/workflows/ci.yml
+  detection_source: ".github/workflows/ci.yml"
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-04 07:48:18.000000000 Z
 - name: Karma
@@ -289,7 +302,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Browser Testing
   image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-08 09:51:18.000000000 Z
@@ -304,7 +317,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/832/mocha.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 08:27:31.000000000 Z
@@ -316,6 +329,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Tools for GitHub
   image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/package.json
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-26 14:03:47.000000000 Z
@@ -329,8 +343,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2021-02-28 15:41:15.000000000 Z
 - name: SinonJS
@@ -342,7 +356,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Javascript Testing Framework
   image_url: https://img.stackshare.io/service/3509/logo.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-30 10:11:03.000000000 Z
@@ -356,7 +370,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5446/V9JsvPul_400x400.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-30 10:15:35.000000000 Z
@@ -368,6 +382,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/5561/303157.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/package.json
   detection_source: package.json
   last_updated_by: Hai Nguyen
   last_updated_on: 2014-08-18 20:27:12.000000000 Z
@@ -381,8 +396,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: yarn.lock
-  detection_source: test/regressions/webpack.config.js
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: benchmark/browser/webpack.config.js
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-18 12:38:54.000000000 Z
 - name: Yarn
@@ -393,7 +408,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
-  detection_source: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/.yarnrc
+  detection_source: ".yarnrc"
   last_updated_by: Josh Wooding
   last_updated_on: 2019-03-01 09:40:01.000000000 Z
 - name: jsdom
@@ -407,7 +423,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Headless Browsers
   image_url: https://img.stackshare.io/service/7054/preview.jpeg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-02-19 12:18:48.000000000 Z
@@ -420,6 +436,7 @@ tools:
   category: Monitoring
   sub_category: node.js Application Monitoring
   image_url: https://img.stackshare.io/service/5577/preview.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/ssr/package.json
   detection_source: examples/ssr/package.json
   last_updated_by: Peter Henson Valdes II
   last_updated_on: 2019-06-01 23:05:35.000000000 Z
@@ -431,6 +448,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/ssr/package.json
   detection_source: examples/ssr/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2018-06-16 19:59:54.000000000 Z
@@ -442,6 +460,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/4423/zE8RTn9E_400x400.jpg
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/package.json
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -454,6 +473,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/netlify.toml
   detection_source: netlify.toml
   last_updated_by: Olivier Tassinari
   last_updated_on: 2020-11-14 10:38:38.000000000 Z
@@ -468,8 +488,8 @@ tools:
   category: Application Utilities
   sub_category: Static Site Generators
   image_url: https://img.stackshare.io/service/5472/default_189db484e0770a6101c6a70f0ef0172bc0f8de37.png
-  detection_source_url: test/bundling/fixtures/gatsby/package.json
-  detection_source: test/bundling/fixtures/gatsby/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/test/bundling/fixtures/gatsby/package.json
+  detection_source: examples/gatsby-theme/package.json
   last_updated_by: Marija Najdova
   last_updated_on: 2020-10-17 15:41:01.000000000 Z
 - name: Lerna
@@ -482,7 +502,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/6207/OwqAUSQi_400x400.jpg
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2021-03-07 11:18:49.000000000 Z
@@ -495,8 +515,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/2438/lodash.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2019-07-24 11:51:15.000000000 Z
 - name: Moment.js
@@ -510,7 +530,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/3643/Xrtdc94q_400x400.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-lab/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-11-16 09:25:46.000000000 Z
@@ -524,7 +544,7 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10010/Screen_Shot_2012-07-31_at_21.57.03__400x400.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/packages/markdown/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-06-25 07:00:29.000000000 Z
@@ -534,6 +554,7 @@ tools:
   open_source: false
   hosted_saas: false
   image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/package.json
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-04-05 22:40:12.000000000 Z
@@ -546,7 +567,8 @@ tools:
   category: Libraries
   sub_category: Javascript Utilities & Libraries
   image_url: https://img.stackshare.io/service/10865/default_5551fb8853689f607a2bc0d5a09355d5a3d52bf0.png
-  detection_source: packages/material-ui-lab/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-04 10:41:01.000000000 Z
 - name: "@babel/cli"
@@ -559,7 +581,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-06-22 00:38:57.000000000 Z
@@ -573,8 +595,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: "@babel/helper-module-imports"
@@ -587,7 +609,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18683/default_581b87e91a401c6fd696f53c9cdb1fce1e8e5950.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-utils/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-11-29 15:45:02.000000000 Z
@@ -601,8 +623,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16153/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: examples/ssr/package.json
   last_updated_by: Peter Henson Valdes II
   last_updated_on: 2019-06-01 23:05:35.000000000 Z
 - name: "@babel/plugin-proposal-class-properties"
@@ -616,8 +638,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: examples/ssr/package.json
   last_updated_by: Peter Henson Valdes II
   last_updated_on: 2019-06-01 23:05:35.000000000 Z
 - name: "@babel/plugin-proposal-object-rest-spread"
@@ -630,7 +652,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -644,7 +666,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17129/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/typescript-to-proptypes/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-06-18 13:40:07.000000000 Z
@@ -658,8 +680,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16888/default_627f05e6a07ce29fc9f119417270f38e8aa5c5e2.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-06-22 00:38:57.000000000 Z
 - name: "@babel/plugin-transform-react-constant-elements"
@@ -673,8 +695,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17453/default_feeb5f9682b10b4223ce6e22e98c891d2c0e3851.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: "@babel/plugin-transform-runtime"
@@ -687,7 +709,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15952/default_4040fefea2f98006727f63d042275b96a275ab2d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -701,8 +723,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15819/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: examples/ssr/package.json
   last_updated_by: garethx
   last_updated_on: 2020-02-07 21:39:29.000000000 Z
 - name: "@babel/preset-react"
@@ -715,8 +737,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: examples/ssr/package.json
   last_updated_by: Marija Najdova
   last_updated_on: 2020-11-14 09:47:35.000000000 Z
 - name: "@babel/preset-typescript"
@@ -729,7 +751,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-04 07:41:33.000000000 Z
@@ -743,7 +765,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16014/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-06-22 00:38:57.000000000 Z
@@ -757,8 +779,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15934/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: packages/material-ui/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: packages/material-ui-codemod/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-06-28 08:33:17.000000000 Z
 - name: "@babel/runtime-corejs2"
@@ -771,7 +793,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16792/default_c6eddffbed005d007ab4638fbcac90e4b79576b2.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
@@ -785,7 +807,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17114/default_5b9eca95ab3651165eb280ed5e0bc9a9382ad24d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-codemod/package.json
   last_updated_by: Michał Dudak
   last_updated_on: 2021-07-01 11:59:01.000000000 Z
@@ -807,7 +829,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16786/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/typescript-to-proptypes/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-15 07:35:27.000000000 Z
@@ -821,8 +843,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16475/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: test/bundling/fixtures/create-react-app/package.json
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/test/bundling/fixtures/create-react-app/package.json
+  detection_source: test/bundling/fixtures/create-react-app/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-06-01 06:25:41.000000000 Z
 - name: "@emotion/styled"
@@ -835,8 +857,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16702/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
-  detection_source_url: yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: benchmark/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: "@fortawesome/fontawesome-svg-core"
@@ -849,7 +871,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16644/default_50c9ed1615a25628505ab53def64d82450ced26b.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
@@ -863,7 +885,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16683/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
@@ -877,7 +899,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16936/default_277303773c2bdb575ee8f4bfe869f0a33d6755b2.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
@@ -891,8 +913,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16271/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: benchmark/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: "@material-ui/icons"
@@ -905,8 +927,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16471/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: "@material-ui/lab"
@@ -919,8 +941,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18760/default_b057657dca80f65f97b5bbe8ba405ffa92071739.png
-  detection_source_url: docs/package.json
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/docs/package.json
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: "@material-ui/styles"
@@ -933,8 +955,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17576/default_e98b11d23d67b728bd1f3e02eba62d97a55febbd.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: benchmark/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: "@octokit/rest"
@@ -947,7 +969,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-26 14:03:47.000000000 Z
@@ -960,7 +982,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17424/default_1cdcda15ebb7caed879f8340bc212b44c4ec9dac.png
-  detection_source: examples/preact/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/create-react-app-with-styled-components-typescript/package.json
+  detection_source: examples/create-react-app-with-styled-components-typescript/package.json
   last_updated_by: Jesse Qin
   last_updated_on: 2021-04-15 12:53:15.000000000 Z
 - name: "@testing-library/react"
@@ -974,8 +997,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16549/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: examples/create-react-app-with-styled-components-typescript/package.json
   last_updated_by: Jesse Qin
   last_updated_on: 2021-04-15 12:53:15.000000000 Z
 - name: "@types/babel__core"
@@ -988,7 +1011,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18415/default_867ef7396016341fd213fa568d6de11cc98fefff.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/typescript-to-proptypes/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-15 07:35:27.000000000 Z
@@ -1002,7 +1025,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15922/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
@@ -1016,7 +1039,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16307/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
@@ -1030,7 +1053,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18156/default_9663441986aa2be78296ccf617e43ef9e612b34e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/eslint-plugin-material-ui/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-04 15:44:43.000000000 Z
@@ -1044,7 +1067,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
@@ -1058,7 +1081,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17003/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
@@ -1072,8 +1095,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
 - name: "@types/marked"
@@ -1086,7 +1109,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17650/default_894a45ad01fa93ac472db719cb1ef1b89f2924f0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-04 07:41:33.000000000 Z
@@ -1100,7 +1123,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15893/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
@@ -1114,8 +1137,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: examples/create-react-app-with-styled-components-typescript/package.json
   last_updated_by: Jesse Qin
   last_updated_on: 2021-04-15 12:53:15.000000000 Z
 - name: "@types/prettier"
@@ -1128,8 +1151,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16943/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
 - name: "@types/prop-types"
@@ -1142,7 +1165,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16673/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
   detection_source: packages/material-ui-utils/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-13 05:33:52.000000000 Z
@@ -1156,8 +1179,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: examples/create-react-app-with-styled-components-typescript/package.json
   last_updated_by: Jesse Qin
   last_updated_on: 2021-04-15 12:53:15.000000000 Z
 - name: "@types/react-dom"
@@ -1170,8 +1193,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
-  detection_source_url: yarn.lock
-  detection_source: examples/nextjs-with-typescript/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
 - name: "@types/react-router-dom"
@@ -1184,7 +1207,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16557/default_d522554c6a41cb28d922d6d3ad32ad4afa0e3bb5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
@@ -1198,7 +1221,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17976/default_ddcb3fb8ca8ccaba871e88d87465cd31ce73df71.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
   detection_source: packages/material-ui/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-05-31 20:16:28.000000000 Z
@@ -1212,7 +1235,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16151/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
@@ -1226,8 +1249,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16494/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
-  detection_source_url: yarn.lock
-  detection_source: examples/create-react-app-with-styled-components-typescript/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: "@types/uuid"
@@ -1240,7 +1263,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/typescript-to-proptypes/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-15 07:35:27.000000000 Z
@@ -1254,7 +1277,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16215/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
@@ -1268,7 +1291,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16404/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
@@ -1282,7 +1305,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1296,8 +1319,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: yarn.lock
-  detection_source: packages/eslint-plugin-material-ui/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
 - name: address
@@ -1310,7 +1333,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18101/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-09-15 12:13:57.000000000 Z
@@ -1324,8 +1347,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: examples/ssr/package.json
   last_updated_by: Peter Henson Valdes II
   last_updated_on: 2019-06-01 23:05:35.000000000 Z
 - name: babel-plugin-istanbul
@@ -1338,7 +1361,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16032/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1352,8 +1375,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17191/default_fbe883dfc6d978f82179fa11bdf634af1b6751fa.png
-  detection_source_url: yarn.lock
-  detection_source: packages/material-ui-utils/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
 - name: babel-plugin-module-resolver
@@ -1366,8 +1389,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16171/default_2c2f2c7b016f84c0fad2576cb986cb14a5dbbc2f.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-06-22 00:38:57.000000000 Z
 - name: babel-plugin-tester
@@ -1380,8 +1403,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18086/image.png
-  detection_source_url: yarn.lock
-  detection_source: packages/material-ui-utils/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
 - name: babel-plugin-transform-react-remove-prop-types
@@ -1394,8 +1417,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16286/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
 - name: benchmark
@@ -1409,10 +1432,24 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: benchmark/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2020-12-13 17:13:32.000000000 Z
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
+  last_updated_by: dependabot-preview[bot]
+  last_updated_on: 2020-04-05 22:40:12.000000000 Z
 - name: clean-css
   description: A well-tested CSS minifier
   package_url: https://www.npmjs.com/clean-css
@@ -1423,7 +1460,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16486/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2021-02-01 10:25:01.000000000 Z
@@ -1437,7 +1474,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16347/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1451,8 +1488,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
-  detection_source_url: yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-22 12:04:34.000000000 Z
 - name: core-js
@@ -1465,8 +1502,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15869/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-07-14 15:49:46.000000000 Z
 - name: cpy-cli
@@ -1479,7 +1516,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16964/default_824835a71140f223a333a5e10225c10368f12857.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2020-12-30 17:01:16.000000000 Z
@@ -1493,8 +1530,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: test/bundling/fixtures/create-react-app/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-03-13 17:20:23.000000000 Z
 - name: cross-fetch
@@ -1507,7 +1544,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17537/default_1922051267fa78212ab6eb1238cdf6aab8771493.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-03-13 17:20:23.000000000 Z
@@ -1528,8 +1565,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18333/default_cef8b737c55fccc3604e91ce246aef30fc604c73.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: packages/material-ui/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: packages/material-ui-styles/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2021-05-31 20:16:28.000000000 Z
 - name: danger
@@ -1542,7 +1579,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18502/default_e81b0bd76811f164978fa6f4c4f71e0f1ccf1507.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-26 14:03:47.000000000 Z
@@ -1557,7 +1594,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16833/default_5c6919c5e02b8e6c83f3a2b23db5b6962e3caca0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-lab/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-11-16 09:25:46.000000000 Z
@@ -1571,7 +1608,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16179/default_77b54a203c743d16eddb6b6390cba17218454fa0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: framer/package.json
   last_updated_by: Matt
   last_updated_on: 2019-11-06 13:08:05.000000000 Z
@@ -1585,8 +1622,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17843/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2019-07-19 21:15:57.000000000 Z
 - name: dtslint
@@ -1599,7 +1636,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17130/default_747c790463912ea0e3a85597146d9c13d6a53db9.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-30 10:15:35.000000000 Z
@@ -1613,7 +1650,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18051/image.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-envinfo/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2020-12-09 08:44:13.000000000 Z
@@ -1627,7 +1664,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-30 10:15:35.000000000 Z
@@ -1641,7 +1678,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16302/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-30 10:15:35.000000000 Z
@@ -1655,7 +1692,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15988/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1669,7 +1706,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1683,7 +1720,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15845/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1697,7 +1734,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16194/default_fef27d1523ac1844fc00e83e47bddd8898ff8a89.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1711,7 +1748,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1725,7 +1762,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16149/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1739,8 +1776,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: examples/ssr/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2019-11-25 11:23:57.000000000 Z
   vulnerabilities:
@@ -1760,8 +1797,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17033/default_50357c490b205882dcfb608fd3c74b446186c21e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-11-05 09:40:08.000000000 Z
 - name: fs-extra
@@ -1775,8 +1812,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: yarn.lock
-  detection_source: packages/netlify-plugin-cache-docs/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-16 06:32:17.000000000 Z
 - name: gatsby-plugin-react-helmet
@@ -1788,6 +1825,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17532/default_8d32936cb624bf7f51657c1540463db0a3c4106e.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/gatsby/package.json
   detection_source: examples/gatsby/package.json
   last_updated_by: Marija Najdova
   last_updated_on: 2020-11-14 09:47:35.000000000 Z
@@ -1801,7 +1839,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16159/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-11-05 09:40:08.000000000 Z
@@ -1815,7 +1853,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16804/default_55e3ea76a7929df1b71c5ea0c9b4130cc87323a4.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2019-06-29 11:25:59.000000000 Z
@@ -1830,8 +1868,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16478/default_482cf308e8fc087eee8e154f29cc142c834abc51.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: packages/material-ui/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: packages/material-ui-styles/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-23 09:02:27.000000000 Z
 - name: html-webpack-plugin
@@ -1844,7 +1882,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15841/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -1858,7 +1896,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17820/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-codemod/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-15 06:56:50.000000000 Z
@@ -1872,8 +1910,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17509/default_3551598c41205d6bdb9267e84e481dd5afeedb46.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: packages/material-ui-styles/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Kristoffer K
   last_updated_on: 2019-06-29 11:25:59.000000000 Z
 - name: karma-browserstack-launcher
@@ -1886,7 +1924,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17310/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-08 09:51:18.000000000 Z
@@ -1900,7 +1938,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-08 09:51:18.000000000 Z
@@ -1914,7 +1952,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 08:27:31.000000000 Z
@@ -1929,7 +1967,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16011/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-01-08 09:51:18.000000000 Z
@@ -1943,7 +1981,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-22 12:04:34.000000000 Z
@@ -1957,7 +1995,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17375/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-lab/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-11-29 15:07:20.000000000 Z
@@ -1978,7 +2016,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18436/default_7c0bc528b9c47f5cc09b0c87021a81c8d72b33f3.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2019-08-02 17:05:36.000000000 Z
@@ -1992,20 +2030,20 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/packages/markdown/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-06-25 07:00:29.000000000 Z
   vulnerabilities:
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21680
-    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
   - name: Inefficient Regular Expression Complexity in marked
-    cve_id: CVE-2022-21681
-    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
     detected_date: Jan 15
     severity: high
     first_patched: 4.0.10
@@ -2019,7 +2057,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15847/default_4479dbac220be99e50e724b2df6cf415241d71fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-lab/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-11-16 09:25:46.000000000 Z
@@ -2046,7 +2084,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15978/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-01 09:35:23.000000000 Z
@@ -2066,6 +2104,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15926/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/ssr/package.json
   detection_source: examples/ssr/package.json
   last_updated_by: Peter Henson Valdes II
   last_updated_on: 2019-06-01 23:05:35.000000000 Z
@@ -2079,8 +2118,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17061/default_23002b02644a8cb313a0f53f43df271731022a9e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/material-ui-docs/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-09-15 12:13:57.000000000 Z
 - name: nyc
@@ -2093,7 +2132,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Hai Nguyen
   last_updated_on: 2014-08-18 20:27:12.000000000 Z
@@ -2107,7 +2146,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-09-21 13:50:26.000000000 Z
@@ -2128,7 +2167,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16351/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/packages/markdown/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-06-25 07:00:29.000000000 Z
@@ -2161,8 +2200,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15843/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: packages/material-ui/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-04 07:41:33.000000000 Z
 - name: raw-loader
@@ -2175,7 +2214,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16030/default_7a465bc85b23fd837cbc038fd1d504632c41a884.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-09 07:21:41.000000000 Z
@@ -2188,7 +2227,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18317/default_f1e168ebe0f124084b9a0acbe78bc5cdba7b4575.png
-  detection_source: examples/preact/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/create-react-app-with-styled-components-typescript/package.json
+  detection_source: examples/create-react-app-with-styled-components-typescript/package.json
   last_updated_by: Jesse Qin
   last_updated_on: 2021-04-15 12:53:15.000000000 Z
 - name: react-docgen
@@ -2202,8 +2242,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16818/default_9a5182350af29cb82b3344853e865051f508ac6c.png
-  detection_source_url: yarn.lock
-  detection_source: framer/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
 - name: react-dom
@@ -2216,8 +2256,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: benchmark/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-22 09:34:19.000000000 Z
 - name: react-draggable
@@ -2230,7 +2270,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17422/default_90854c53afd40e0b32cb5e4d62d6bbc2214e0f62.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
@@ -2243,7 +2283,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16513/default_4e3259350c525d1d859fa80a938000081d7c9db8.png
-  detection_source: examples/gatsby/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/gatsby-theme/package.json
+  detection_source: examples/gatsby-theme/package.json
   last_updated_by: Marija Najdova
   last_updated_on: 2020-11-14 09:47:35.000000000 Z
 - name: react-is
@@ -2256,8 +2297,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17829/default_2a0f136cfb588dd9053268b73a18a953e8d65590.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: benchmark/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-22 09:34:19.000000000 Z
 - name: react-jss
@@ -2270,7 +2311,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17302/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: benchmark/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-03-22 09:34:19.000000000 Z
@@ -2284,7 +2325,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
@@ -2298,7 +2339,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16058/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
@@ -2312,8 +2353,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
 - name: react-scripts
@@ -2326,8 +2367,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15985/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
-  detection_source_url: examples/preact/package.json
-  detection_source: test/bundling/fixtures/create-react-app/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/examples/preact/package.json
+  detection_source: examples/create-react-app-with-styled-components-typescript/package.json
   last_updated_by: Jesse Qin
   last_updated_on: 2021-04-15 12:53:15.000000000 Z
 - name: react-spring
@@ -2340,7 +2381,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17658/default_9126b5a628d81e3d41c9b1190587ab1aec9165c5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
@@ -2354,7 +2395,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15929/default_ac622bc364a601d766b9a6f6039f191492f54d65.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-06-23 08:06:08.000000000 Z
@@ -2368,8 +2409,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16380/default_9ae0e75ed749aca83d89f7e1ccb309be2bfc610e.png
-  detection_source_url: framer/Material-UI.framerfx/yarn.lock
-  detection_source: packages/material-ui/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/framer/Material-UI.framerfx/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
 - name: react-virtualized
@@ -2382,7 +2423,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16918/default_c17ccfb3dc0510bb2c684b87ee080a74a9728c34.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: Michał Perłakowski
   last_updated_on: 2021-07-09 13:00:13.000000000 Z
@@ -2396,7 +2437,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17195/default_183829c5079b84333a720d8590a328efc043ba0e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-08-30 08:17:39.000000000 Z
@@ -2410,7 +2451,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18162/default_77d2e8738857baa38b19bd635d4e8653809e03e4.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 10:53:39.000000000 Z
@@ -2424,7 +2465,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16512/default_0a704f5fac0bffcf529c9a61658d0b9ddbf7504e.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2019-08-26 10:00:09.000000000 Z
@@ -2438,7 +2479,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16952/default_caea01ce44a5fd1bb200d8fc0f8f2a1695b4e569.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-10-23 18:42:48.000000000 Z
@@ -2452,8 +2493,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-03-18 12:20:45.000000000 Z
 - name: rollup-plugin-babel
@@ -2466,7 +2507,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15877/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -2480,7 +2521,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15873/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -2494,7 +2535,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17046/default_0e6669b56ffe7d68d8118eb8e85d024215fd5906.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -2508,7 +2549,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15859/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -2522,7 +2563,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16078/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -2536,8 +2577,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16484/default_73c88a18b684e01cbdbf945631a40a44aff5a777.png
-  detection_source_url: yarn.lock
-  detection_source: test/bundling/fixtures/vite/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 08:28:45.000000000 Z
 - name: source-map-support
@@ -2550,7 +2591,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16028/default_c7b204838197013798409fa2b4dafce450edc7fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2021-02-15 17:35:13.000000000 Z
@@ -2564,7 +2605,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16266/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-30 10:15:35.000000000 Z
@@ -2578,7 +2619,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17708/default_9693d58c90f5c726ee648423687212d2a94266da.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-30 10:15:35.000000000 Z
@@ -2592,7 +2633,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16716/default_e3c0987b80983280e46e6e1723fcfcff50fa4824.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: packages/material-ui-icons/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2021-05-15 16:30:55.000000000 Z
@@ -2606,7 +2647,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16143/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-18 09:05:02.000000000 Z
@@ -2620,7 +2661,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18286/default_14d018f911261a59bddc0d862496e58cd91c1853.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: benchmark/package.json
   last_updated_by: renovate[bot]
   last_updated_on: 2021-07-04 07:42:35.000000000 Z
@@ -2634,7 +2675,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/17139/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Olivier Tassinari
   last_updated_on: 2020-12-21 17:44:37.000000000 Z
@@ -2648,7 +2689,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15858/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-07-07 07:26:55.000000000 Z
@@ -2662,8 +2703,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
-  detection_source_url: yarn.lock
-  detection_source: packages/typescript-to-proptypes/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/packages/feedback/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-10-26 06:49:23.000000000 Z
 - name: webfontloader
@@ -2677,7 +2718,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/18680/default_796854034d0fb722b81b1d885cb3ab88a613d5fb.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
   detection_source: docs/package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-05-09 07:21:41.000000000 Z
@@ -2692,8 +2733,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15991/default_cbd6c289400672b291755183817e9dd6abe1a612.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: docs/package.json
   last_updated_by: dependabot-preview[bot]
   last_updated_on: 2020-11-08 12:51:56.000000000 Z
 - name: webpack-cli
@@ -2706,8 +2747,8 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
-  detection_source: package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: benchmark/package.json
   last_updated_by: Sebastian Silbermann
   last_updated_on: 2020-10-27 07:14:11.000000000 Z
 - name: yargs
@@ -2720,7 +2761,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15887/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
-  detection_source_url: yarn.lock
-  detection_source: packages/material-ui-icons/package.json
+  detection_source_url: https://github.com/ashleanichols/material-ui/blob/next/yarn.lock
+  detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2021-06-13 09:24:21.000000000 Z
